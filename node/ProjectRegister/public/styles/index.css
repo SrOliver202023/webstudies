@@ -1,0 +1,30 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: aqua;
+}
+section {
+    margin-top: 5%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50%;
+    height: 50rem;
+}
+section fieldset {
+    height: 100%;
+    background-color: red;
+
+
+}
+section fieldset form {
+
+
+    background-color: red;
+
+
+}
