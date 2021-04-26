@@ -6,25 +6,81 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: rgb(44, 44, 44);
+    padding: 0;
+    margin: 0;
+
+
+
 }
 section {
     margin-top: 5%;
     display: grid;
     justify-content: center;
     grid-template-columns: 50%;
-    height: 50rem;
+    height: 45rem;
 }
 section fieldset {
-    height: 100%;
-    background-color: red;
+    border-radius: 5%;
+    border: none;
+    height: 78%;
+    background-color: rgb(37, 66, 99);
+    
+    padding: 10%;
+    border-bottom: 1rem solid black;
+}
+section fieldset form input{
+    width: 90%;
+    height: 4rem;
+    border: none;
+    background-color: white;
+    padding: 0 5%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    outline: none;
 
 
 }
-section fieldset form {
+section  #buttonRegister {
+    
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -7%;
+    border-radius: 1rem;
+
+    align-items: center;
+
+}
+section #buttonRegister button {
+
+    height: 4rem;
+    width: 8rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(0, 238, 255);
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 6px solid black;
 
 
-    background-color: red;
+}
+section #buttonRegister button:hover {
+    height: 4.5rem;
+    width: 8.5rem;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem;
+}
 
+
+footer {
+    margin-top: 10%;
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
 
 }
