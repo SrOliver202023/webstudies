@@ -4,7 +4,7 @@ var app = express();
 
 const {
     index
-} = require('./mpages')
+} = require('./routes')
 
 const nunjucks = require('nunjucks')
 nunjucks.configure('src/views', {
