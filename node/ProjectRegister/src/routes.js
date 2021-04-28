@@ -1,9 +1,5 @@
-function index(req, res) {
-    return res.render("index.html");
+const express = require('express');
+const routes = express.Router();
+const UserController = require('./controllers/UserControllers')
 
-}
-
-module.exports = {
-    index
-
-}
+routes.post('/users', UserController.store);

@@ -4,7 +4,7 @@
   "description": "This is only a project just for study back-end with node.js",
   "main": "myserver.js",
   "scripts": {
-    "start": "nodemon src/myserver.js"
+    "start": "nodemon src/server.js"
   },
   "author": "SrOliver202023",
   "license": "ISC",
@@ -12,6 +12,8 @@
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
     "nunjucks": "^3.2.3",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
     "sequelize": "^6.6.2",
     "twilio": "^3.61.0"
   },
