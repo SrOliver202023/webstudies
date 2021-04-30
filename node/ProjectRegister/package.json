@@ -2,7 +2,7 @@
   "name": "mysystemregister",
   "version": "1.0.0",
   "description": "This is only a project just for study back-end with node.js",
-  "main": "myserver.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon src/server.js"
   },

@@ -6,6 +6,6 @@ module.exports = {
     database: 'sqlnode',
     define: {
         timestamps: true, // created_at, update_at = when was modified 
-        undescored: true, // underline format 
+        undescored: true // underline format 
     },
 };
