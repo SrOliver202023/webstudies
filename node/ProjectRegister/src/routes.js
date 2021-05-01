@@ -3,3 +3,6 @@ const routes = express.Router();
 const UserController = require('./controllers/UserControllers')
 
 routes.post('/users', UserController.store);
+
+
+module.exports = routes;
