@@ -1,0 +1,19 @@
+
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+a:active {
+}
+a:focus{
+}
+li:first-child{
+}
+li:last-child{
+}
+li:nth-child(x){  /*x is a position number*/    
+}
+li:nth-last-child(x) {
+}
