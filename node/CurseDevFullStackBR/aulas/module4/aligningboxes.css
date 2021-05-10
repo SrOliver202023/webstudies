@@ -1,0 +1,56 @@
+* {
+
+	--BackgrounButton1: #32a84c;
+	--FontButton1: #ffffff;
+
+	--BackgrounButton2: #ff5e5e;
+	--FontButton2: #ffffff;
+
+
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+
+}
+.cFirst {
+	width: 10rem;
+	height: 5rem;
+	border: solid 2px black;
+	position: relative;
+	float: left;
+	background-color: var(--BackgrounButton1);
+	color: var(--FontButton1);
+	font-weight: 800;
+}
+
+.cFirst .ContentText1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+
+
+}
+
+.cSecond {
+	display: inline-flex;
+	width: 10rem;
+	height: 5rem;
+	border: solid 2px black;
+
+	
+	justify-content: center;
+	align-items: center;
+	background-color: var(--BackgrounButton2);
+	color: var(--FontButton2);
+	font-weight: 800;
+}
+
+.cSecond .ContentText2 {
+
+}
