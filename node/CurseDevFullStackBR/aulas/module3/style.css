@@ -1,0 +1,25 @@
+ul {
+	list-style-position: inside;
+	background-color: #78c2b7;
+	margin: 0;	
+	padding: 10px;
+}
+
+ol {
+	list-style-position: inside;	
+	background-color: #b778c2;
+	margin: 0;
+	padding: 10px;	
+
+}
+li {
+	background-color: yellow;
+	border: 1px solid black;
+	margin: 3px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+li:hover {
+	background-color: white;
+}
