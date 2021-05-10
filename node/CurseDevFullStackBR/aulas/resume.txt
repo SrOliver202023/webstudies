@@ -1,0 +1,34 @@
+﻿------------------
+       M2 HTML
+-------------------
+!tags semânticas!
+-------------------
+single -> ID
+multiples -> CLASS
+-------------------
+<p> = <img>
+-------------------
+      M3 CSS
+-------------------
+unidades de medidas 
+fixas & relativas
+-------------------
+style links
+-------------------
+style lists
+-------------------
+    M4 CSS INTER
+-------------------
+
+
+
+
+
+------------------
+   M3 HTML INTER
+-------------------
+GET -> Informações no URL
+POST -> Informações no Server
+
+inputs ou inoformações em GET devem ter name definido!
+
