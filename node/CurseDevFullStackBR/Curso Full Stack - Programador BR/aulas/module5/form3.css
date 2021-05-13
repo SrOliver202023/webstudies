@@ -1,0 +1,76 @@
+body {
+	background-color: red;
+	display: grid;
+	grid-template-columns: 70%;
+	justify-content: center;
+
+}
+
+body form {
+	border-radius: .4rem;
+	padding: 3%;
+	display: grid;
+	grid-template-columns: 1;
+	justify-content: center;
+	background-color: #a8e6db;
+	border: none;
+
+}
+
+body form #iTexts {
+
+}
+body form input {
+	margin: 0.5rem 0;
+}
+body form input[type="text"] {
+	background-color: white;
+	font-weight: 600;
+	outline: none;
+	border: none;
+	height: 1rem;
+	width: 12rem;
+	align-items: center;
+	padding: 10px;
+	border-radius: 1rem;
+
+
+}
+body form input[type="checkbox"] {
+
+
+}
+
+
+
+body form label.iOpsCurse {
+	font-weight: 600;
+
+}
+
+body form #cSubmit {
+	display: flex;
+	justify-content: center;
+}
+
+body form #iSubmit {
+	height: 1.5rem;
+	width: 5rem;
+	background-color: white;
+	outline: none;
+	border: none;
+}
+body form select {
+
+	margin: 1rem 0;
+}
+body form textarea[name="txtFeedBack"] {
+	border-radius: .3rem;
+	max-width: 30rem;
+	max-height: 20rem;
+	min-width: 30rem;
+	min-height: 20rem;
+	outline: none;
+	border: none;
+	
+}

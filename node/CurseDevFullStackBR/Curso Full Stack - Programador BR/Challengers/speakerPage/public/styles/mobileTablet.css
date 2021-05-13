@@ -1,0 +1,71 @@
+/* mobile */
+@media (min-width: 300px) and (max-width: 799px){
+	#navbar h1 {
+		color: black;
+	}
+    #icForm form{
+        margin-left: initial;
+        margin: auto;
+    }
+    #icSpeaker {
+        grid-template-columns: 1;
+
+    }
+    #icSpeaker article  {
+        margin: auto;
+        padding: 5%;
+        width: 60%;
+        display: grid;
+
+        
+    }
+    #icSpeaker article  img {
+
+        height: 100%;
+        width: 100%;
+        
+    }
+    #icSpeaker article #icPanelist {
+        width: 100%;
+        margin: 7px 0;
+        
+    }
+    
+}
+
+/* Tablet */
+
+@media (min-width: 700px) and (max-width: 900px){
+
+	#navbar h1 {
+		color: red;
+	}
+    #icForm form{
+        margin-left: initial;
+        margin: auto;
+    }
+    #icSpeaker {
+
+    }
+    #icSpeaker article  {
+        margin: auto;
+        padding: 5%;
+        width: 70%;
+        display: grid;
+
+    }
+    #icSpeaker article  img {
+
+        height: 100%;
+        width: 100%;
+        
+    }
+    #icSpeaker article #icPanelist {
+        width: 100%;
+        margin: 7px 0;
+        
+    }
+    
+}
+}	
+

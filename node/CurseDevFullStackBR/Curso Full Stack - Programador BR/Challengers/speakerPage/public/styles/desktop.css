@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body {
+	width: 100%;
+	height: 40em;
+
+}
+
+header {
+
+}
+header nav {
+	color: white;
+	text-align: center;
+	width: 100%;
+	top: 0;
+	background-color: #00b6e3;
+
+	padding: 1rem;
+	transition: top 0.3s;
+
+}
+header nav h1 {
+
+
+}
+
+#icForm {
+	
+
+	background-image: url('../images/plateia.jpg');
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	
+
+
+	background-color: white;
+	width: 100%;
+	height: 100%;
+
+	padding: 2%;
+
+
+}
+
+
+#icForm form {
+	padding: 1rem;
+	background-color: rgba(255, 255, 255, 0.568);
+	height: 70vh;
+	width: 20rem;
+	margin-left: auto; 
+
+
+}
+#icForm form input {
+	border: none;
+	outline: none;
+	background-color: #ffffff;
+	width: 80%;
+	height: 2rem;
+	padding: 5px;
+
+
+}
+#icForm form input, h3, p {
+	margin-bottom: 1rem;
+}
+#icForm form select {
+	
+	outline: none;
+	border: none;
+	height: 2rem;
+
+}
+#icForm form #icSubscribe {
+	width: 100%;
+	height: 5rem;
+	display: flex;
+	justify-content: center;
+}
+#icForm form #icSubscribe button{
+	margin-top: 2rem;
+	display: block;
+	outline: none;
+	border: none;
+	background-color: #00b6e3;
+	color: white;
+	height: 3rem;
+	width: auto;
+	padding: 10px;
+	font-size: 1rem;
+}
+
+
+
+
+
+#icSpeaker {
+	height: auto;
+	width: 100%;
+	background-color: #4d4d4d;
+	padding: 10%;
+
+
+
+	
+}
+#icSpeaker article {
+	background-color: rgb(58, 58, 58);
+	display: grid;
+	color: white;
+	margin: auto;
+	padding: 5%;
+	width: 50%;
+	display: grid;
+
+}
+#icSpeaker article img {
+	width: 40%;
+	height: 40%;
+
+}
+#icSpeaker article #icPanelist  {
+	word-wrap: break-word;
+
+	overflow-wrap: break-word;
+	height: 100%;
+	margin: 0 1rem;
+}
+
+#icSpeaker article #icPanelist h2 {
+	margin-bottom: 1rem;
+	font-size: 2rem;
+}
+#icSpeaker article #icPanelist p {
+	
+	line-height: 1.1rem;
+	font-size: 17px;
+}
+
+
+#icEndInformations {
+	background-color: black;
+	height: 10vh;
+
+
+}
+
+
+
+
